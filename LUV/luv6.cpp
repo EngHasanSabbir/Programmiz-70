@@ -3,19 +3,10 @@ using namespace std;
 
 int main(){
 
-string name="Hasan Sabbir";
-string roll="2 0";
+string fname,lname;
 
-string result=name+roll;
-cout<<result;
-
-if(name==roll){
-
-    cout<<"Equal";
-}
-else {
-    cout<<"\n Not Equal";
-}
+cin>>fname>>lname;
+cout<<fname<<" "<<lname;
 
     return 0;
 }
